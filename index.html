@@ -1,0 +1,242 @@
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="styles.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title> HSHP NSBE </title>
+	</head>
+	<body>
+	<script>
+
+    </script>
+		<ul id="nav" class="w3-animate-top">
+		    <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">A Little About Us</a></li>
+			<li><a href="#home">Home</a></li>
+
+			<li class="logo"><a href="index.html" class="spectrum"><span style="color:red">N</span>S<span style="color:red">B</span>E</span></a></li>
+		</ul>
+
+
+		<div class="search-back">
+       <h1 id="header">High School for Health Proffessions</h1>
+        <form>
+        	<input type="text" id="math"/>
+        	<button type="button" value="" href="#modal" id="search" onclick="document.getElementById('id01').style.display='block'"><em class="material-icons">search</em></button>
+        	<div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+       <a href="mission.html"> Our Personal Chapter</a>
+       <a href="interviews.html"> Science Fair Project</a>
+      </div>
+    </div>
+  </div>
+        </form>
+	</div>
+	<div id="about">
+		<h1>The Purpose of NSBE</h1>
+		<p>NSBE's mission is to increase the number of culturally responsible Black Engineers who excel academically, succeed professionally and positively impact the community. The National Society of Black Engineers (NSBE) with more than 30,000 members, is one of the largest student-managed organization in the country. </p>
+	</div>
+		<div id="contact">
+		<h1>Contact Information</h1>
+		<p>If you have any questions, comment, or concern during school hours pleae do not hesitate to contact our school and then ask for Mrs. Caesar. <Br/><br/>High School For Health Professions Phone Number: (803)-535-1693. <Br/></br> Or contact Mrs. Caesar after school at: (803) 250-1343 </p>
+	</div>
+
+	<script>
+		function display() {
+			var x = document.getElementById("comment").value;
+			document.getElementById("demo").innerHTML = x;
+		};
+	</script>
+
+
+	<div id="copyright">
+		<h2>&copy; 2017. Filler Inc. All Rights Reserved for Filler.</h2>
+	</div>
+	</body>
+</html>
+<style>
+  body {
+  padding:0;
+	margin:0;
+	padding-bottom: 100px;
+}
+
+
+#nav {
+	list-style-type: none;
+	background-color:yellow;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	width:100%
+}
+
+#nav li {
+	float:right;
+}
+
+#nav li a {
+	display:block;
+	text-decoration: none;
+	color:#0061ff;
+	padding:16px;
+	text-align: center;
+	font-size:22px;
+	font-family:'Titillium Web', sans-serif;
+}
+
+#nav li a:hover {
+	border-bottom:5px solid orange;
+}
+
+.search-back {
+background:  url(http://www.nsbe.org/Professionals/PDC/Common-Elements/NP_Logos/NSBE_Pro_Logo_HiRes_Color.aspx);
+	width=100%;
+	height:620px;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#math {
+	position:absolute;
+	top:320px;
+	left:420px;
+	height:30px;
+	width:500px;
+}
+
+#search {
+	border:0;
+	background-color: #0061ff;
+	color:white;
+	position:absolute;
+	top:390px;
+	left:620px;
+	width:80px;
+	height: 30px;
+
+}
+
+#header {
+	font-family: 'Titillium Web', sans-serif;
+	position: relative;
+	top:65px;
+	left:420px;
+	display: inline;
+	color:blue;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.w3-modal a {
+	display:block;
+	text-decoration: none;
+	padding:14px;
+
+}
+
+.w3-modal a:hover {
+	background-color: #0061ff;
+	color:white;
+}
+
+.logo {
+	float:left !important;
+	position: relative;
+	left:10px;
+	font-size: 2px !important;
+
+}
+
+.logo i {
+	position: absolute;
+	top:20px;
+	color:orange;
+}
+
+.spectrum {
+	font-size: 35px;
+}
+
+#about {
+	background-color:yellow;
+	margin-top:-10px;
+	width:100%;
+	height:400px;
+	border-bottom: 5px solid orange;
+}
+
+#about h1 {
+	text-align:center;
+	color:#0061ff;
+	font-size:50px;
+}
+
+#about p {
+	font-size:20px;
+	margin:15px;
+}
+
+#contact {
+	background-color:blue;
+	margin-top:-10px;
+	height:600px;
+	border-bottom: 5px solid orange;
+}
+
+#contact h1 {
+	text-align:center;
+	color:#000000;
+	font-size:50px;
+}
+
+#contact p {
+	font-size:20px;
+	margin:15px;
+}
+
+#chat {
+	background-color: yellow;
+	margin-top:-10px;
+	height:500px;
+	border-bottom: 5px solid orange;
+}
+
+#chat h1 {
+	text-align:center;
+	color:black;
+	font-size:50px;
+}
+
+#chat textarea {
+	position: absolute;
+	left:470px;
+}
+
+#chat button {
+	margin-top:230px;
+	margin-left:580px;
+	border:0;
+	background-color:#0061ff;
+	color:white;
+	padding:12px 16px;
+}
+
+#chat button:hover {
+	background-color:orange;
+	cursor: pointer;
+}
+body {
+  background-color:blue;
+}
+
+</style>
